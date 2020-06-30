@@ -16,7 +16,6 @@
 }
 
 body {
-    padding-bottom: 50px;
     background-color: #eff0f0;
 }
 
@@ -64,43 +63,14 @@ body {
  }
  
 .jumbotron.topBanner {
-    height: 400px;
+    height: 300px;
 }
 
 .jumbotron .bannertext {
-    margin-left: 15%;
     float: left;
-    vertical-align: middle;
-}
-
-
-.jumbotron .quotecontainer { 
-    margin-top: 75px;
-    font-family:'Lucida Sans Unicode';
-    vertical-align: middle;
-    display: none;
-}
-
-.jumbotron .quotetext {
-    color: #ffffff;
-    margin: auto;
-    font-size: 200%;
-    line-height: 1.54;
-    text-align: justified;
-    text-justify: inter-word;
-    vertical-align: middle;
-    background-color: rgba(0, 0, 0, 0.6);
-}
-
-.jumbotron .quoteauthor {
-    font-family:'Lucida Sans Unicode';
-    font-style: italic;
-    text-align: center;
-    font-size: 80%;
-    color:  #ffffff;
-    background-color: rgba(0, 0, 0, 0.6);
-    white-space: pre;
-    display: none;
+    text-align: left;
+    position: relative;
+    margin-top: 44px;
 }
 
 .jumbotron .bannertext .title {
@@ -111,7 +81,7 @@ body {
 
 .jumbotron .bannertext .subtext {
     color: #cc9035;
-    font-family: 'infinityFont';
+    font-family: 'Lucida Sans Unicode';
     font-size: 100%;
 }
 
@@ -160,7 +130,7 @@ body {
 }
 
 .spacer {
-    margin-top: 80px; /* define margin as you see fit */
+    margin-top: 40px; /* define margin as you see fit */
 }
 
 ul,li { 
@@ -202,29 +172,28 @@ ul,li {
 .footerbar {
     width: 100%;
     background-color: #303c56;
-    height: 500px;
+    height: 300px;
     text-align: center;
-    margin-bottom: 75px;
 }
 
 .footertext {
     text-align: center;
     font-family: 'infinityFont';
-    font-size: 400%;
+    font-size: 300%;
     color: #ffffff;
-    padding-top: 120px;
+    padding-top: 60px;
 }
 
 .footeremail {
     text-align: center;
     font-family: 'Lucida Sans Unicode';
     padding-top: 20px;
-    font-size: 350%;
+    font-size: 250%;
     color: #cc9035;
 }
 
 .footerimg {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 a:hover { 
@@ -272,6 +241,13 @@ a:hover {
     .visible-desktop {
         display: none;
      }
+
+
+    .greyfont h2{
+        font-family:'infinityFont';
+        font-size: 160%;
+        color: #9b8579;
+    }
      
     .quotebgn {
         background-size: cover;
@@ -303,6 +279,12 @@ a:hover {
         background-size: 40px 40px;
         margin: 7px;
         margin-bottom: 30px;
+    }
+
+    .greyfont h2{
+        font-family:'infinityFont';
+        font-size: 120%;
+        color: #9b8579;
     }
     
     .jumbotron .bannertext .subtext {

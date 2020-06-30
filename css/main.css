@@ -30,7 +30,7 @@ body {
 
 .greyfont h2 {
   font-family: "infinityFont";
-  font-size: 200%;
+  font-size: 180%;
   color: #9b8579;
 }
 
@@ -266,6 +266,12 @@ a:hover {
     display: none;
   }
 
+  .greyfont h2 {
+    font-family: "infinityFont";
+    font-size: 120%;
+    color: #9b8579;
+  }
+
   .quotebgn {
     background-size: cover;
   }
@@ -294,6 +300,12 @@ a:hover {
     background-size: 40px 40px;
     margin: 7px;
     margin-bottom: 30px;
+  }
+
+  .greyfont h2 {
+    font-family: "infinityFont";
+    font-size: 80%;
+    color: #9b8579;
   }
 
   .jumbotron .bannertext .subtext {
