@@ -9,8 +9,17 @@
   font-family: "Lucida Sans Unicode";
   src: url(../fonts/lucidasansunicode.ttf);
 }
+html, body {
+  height: 100%;
+}
+
 body {
-  background-color: #eff0f0;
+  background-color: #1b2332;
+}
+
+.site-container {
+  overflow: hidden;
+  min-height: 100%;
 }
 
 .whitefont {
@@ -45,9 +54,12 @@ body {
 
 .jumbotron {
   padding-top: 0px;
-  -webkit-box-shadow: 5px 5px 10px 0px rgba(50, 50, 50, 0.64);
-  -moz-box-shadow: 5px 5px 10px 0px rgba(50, 50, 50, 0.64);
-  box-shadow: 5px 5px 10px 0px rgba(50, 50, 50, 0.64);
+}
+
+.about-content {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #eff0f0;
 }
 
 .bluebgn {
@@ -61,6 +73,7 @@ body {
 
 .jumbotron.topBanner {
   height: 300px;
+  margin-bottom: 0px;
 }
 
 .jumbotron .bannertext {
@@ -95,39 +108,8 @@ body {
   font-size: 48px;
 }
 
-#projects {
-  min-height: 590px;
-}
-
-.skillText {
-  display: none;
-  margin-top: 50px;
-}
-
-.skillExperienceText {
-  color: #7986A5;
-  font-size: 130%;
-  font-family: "infinityFont";
-}
-
-.skillInterestText {
-  color: #fcb040;
-  font-size: 130%;
-  font-family: "infinityFont";
-}
-
-.skillFont {
-  color: #fff;
-  font-family: "infinityFont";
-  font-size: 180%;
-}
-
-.timelineCol {
-  padding-right: 0px;
-}
-
 .spacer {
-  margin-top: 40px;
+  margin-top: 0px;
   /* define margin as you see fit */
 }
 
